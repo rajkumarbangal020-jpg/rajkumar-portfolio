@@ -1,0 +1,25 @@
+# Local/private configuration
+.env
+.env.*
+config/local.php
+
+# Temporary/session/debug files
+scratch_cookie*
+*.log
+*.tmp
+*.bak
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Dependencies if added later
+vendor/
+node_modules/
+
+# Runtime uploads created from the admin panel
+uploads/projects/project_*
+uploads/certificates/
+uploads/cv/
