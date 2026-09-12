@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Keep non-public application areas out of search results.
+Disallow: /admin/
+Disallow: /config/
+Disallow: /database/
+Disallow: /includes/
+Disallow: /api/
+
+# After deployment, add the absolute sitemap URL here, for example:
+# Sitemap: https://your-live-domain.example/sitemap.xml
